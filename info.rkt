@@ -1,6 +1,7 @@
 #lang info
 (define collection "literify")
-(define deps '("base"
+(define deps '("scribble-lib"
+               "base"
                "rackunit-lib"))
 (define build-deps '("scribble-lib" "racket-doc"))
 (define scribblings '(("scribblings/literify.scrbl" ())))
